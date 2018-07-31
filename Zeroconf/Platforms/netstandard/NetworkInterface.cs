@@ -101,7 +101,7 @@ namespace Zeroconf
                         client.ExclusiveAddressUse = false;
 
 
-                        var localEp = new IPEndPoint(IPAddress.Any, 5353);
+                        var localEp = new IPEndPoint(IPAddress.Any, 5354);
 
                         Debug.WriteLine($"Attempting to bind to {localEp} on adapter {adapter.Name}");
                         socket.Bind(localEp);
